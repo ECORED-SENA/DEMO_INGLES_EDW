@@ -13,7 +13,7 @@
         
    
       .subtitulo-guion.mt-5
-        h2#actividad-1  Speaking
+        h2#actividad-1  Actividad de speaking
       .row.align-items-center.justify-content-center.my-5
         .col-8.col-md-4
           figure
@@ -21,9 +21,9 @@
         .col-12.col-md-8
           .px-2
             p
-              | Cras tempus tortor et nisi tincidunt feugiat. Integer lacus ante, venenatis nec fringilla quis, dapibus ut dui.
+              | Demo de actividad didáctica de reconocimiento de voz, a través del API Web Speech desarrollada para Google Chrome y Mozilla Firefox.
             p
-              | Fusce imperdiet velit a leo sagittis, id scelerisque massa placerat. Duis at dui sed enim euismod pulvinar quis ac ante. Phasellus condimentum sapien nisi, ac facilisis purus tristique ac. Quisque magna est, luctus vitae elit ut, convallis venenatis justo. Nunc pretium elit a nisi tempus sagittis.
+              | Haz clic en el botón Start para abrir la actividad.
             a.boton.boton--b(:href="obtenerLink('/actividades/phrase-matcher/index.html')" target="_blank")
                 span Start
                 i.fas.fa-puzzle-piece
